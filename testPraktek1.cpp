@@ -1,27 +1,27 @@
 #include <iostream>
 using namespace std;
 int main(){
-	string Nama;
-	string NPM;
-	string F;
-	string prodi;
-	string confirm;
+	string Nama,NPM,F,prodi;
 	
-	cout<<"";
+	cout<<"Nama\t\t: ";
 	getline(cin,Nama);
-	cout<<"";
+	cout<<"NPM\t\t: ";
 	getline(cin,NPM);
-	cout<<"";
+	cout<<"Fakultas\t: ";
 	getline(cin,F);
-	cout<<"";
+	cout<<"Jurusan\t\t: ";
 	getline(cin,prodi);
-	cout<<endl;
 	
-	cout<<"Konfirmasi Data"<<confirm<<endl;
-	cout<<"Nama anda : "<<Nama<<endl;
-	cout<<"NPM anda : "<<NPM<<endl;
-	cout<<"Fakultas anda : "<<F<<endl;
-	cout<<"Jurusan anda : "<<prodi<<endl;
+	cout<<endl<<endl;
+	
+	cout<<"-------------------"<<endl;
+	cout<<"Konfirmasi Data"<<endl;
+	cout<<"-------------------"<<endl;
+	
+	cout<<"Nama anda\t: "<<Nama<<endl;
+	cout<<"NPM anda\t: "<<NPM<<endl;
+	cout<<"Fakultas anda\t: "<<F<<endl;
+	cout<<"Jurusan anda\t: "<<prodi<<endl;
 	
 	
 	
